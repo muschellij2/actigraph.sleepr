@@ -31,7 +31,6 @@ Imports:
     Rcpp,
     RcppRoll,
     RSQLite,
-    dbplyr,
     dplyr (>= 1.0.1),
     tidyr (>= 1.1.1),
     assertthat,
