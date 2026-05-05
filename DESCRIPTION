@@ -1,11 +1,15 @@
 Package: actigraph.sleepr
 Type: Package
 Title: Detect Periods of Sleep and Non-Wear from 'ActiGraph' Data
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: c(person(given = "Desislava",
-           family = "Petkova",
-           email = "desislavka@gmail.com",
-           role = c("aut", "cre"))
+                    family = "Petkova",
+                     email = "desislavka@gmail.com",
+                     role = c("aut", "cre")
+             ),
+           person(given = "John",
+                  family = "Muschelli",
+                  role = c("ctb"))
            )
 Description: Reads *.agd files exported from 'ActiGraph' devices; 
   implements the Troiano <doi:10.1249/mss.0b013e31815a51b3> and 
@@ -23,7 +27,6 @@ Encoding: UTF-8
 LazyData: true
 NeedsCompilation: no
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
 Depends:
     R (>= 3.2.4)
 Imports:
